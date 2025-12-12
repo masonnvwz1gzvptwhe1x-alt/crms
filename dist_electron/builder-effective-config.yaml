@@ -1,0 +1,14 @@
+directories:
+  output: dist_electron
+  buildResources: build
+appId: com.circlesoft.crm
+productName: CRMS Dashboard
+files:
+  - filter:
+      - dist/**/*
+      - electron/**/*
+win:
+  target: nsis
+mac:
+  target: dmg
+electronVersion: 30.5.1
